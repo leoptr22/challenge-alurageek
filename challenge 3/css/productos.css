@@ -1,0 +1,59 @@
+.star__wars{
+    display: flex;
+}
+
+.ver__producto{
+padding: 1rem;
+}
+
+.producto{
+display: flex;
+flex-direction: column;
+padding:0;
+margin: 2px;
+}
+
+.titulo__producto{
+padding:0;
+margin: 0%;
+}
+
+.precio{    
+    
+padding:0;
+margin: 0%;
+    
+
+}
+
+.ver__producto{
+    padding:0;
+    margin: 0%;
+
+}
+
+#consolas{
+    padding-top:1rem;
+    margin: 0%;
+}
+
+.star{
+    display: block;
+    padding-top: 1rem;
+    
+}
+
+#verTodo{
+text-decoration: none;
+color: black;
+
+}
+
+.zoom {
+    transition: transform .6s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.9); 
+    border-radius: 100%;
+}

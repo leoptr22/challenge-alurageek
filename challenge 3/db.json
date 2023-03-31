@@ -1,0 +1,15 @@
+{
+  "productos": [
+    {
+     "imagen": "url",
+     "titulo": "producto xyz",
+     "precio": "$120000.00"
+     
+    }
+  ]
+}
+
+
+
+
+

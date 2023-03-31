@@ -1,0 +1,13 @@
+{
+    "productos": [
+        {
+            "tituloItem": "consolas",
+            "imagenen": "./img/star/producto_1.png",
+            "titulo": "producto xyz",
+            "precio": "$60.00",
+            "verProducto": "star-wars"
+
+        }
+ ]
+
+}

@@ -1,0 +1,68 @@
+.footer{
+    padding: 3rem;
+    display: flex;
+flex-direction: row;
+overflow: hidden;
+background: linear-gradient(transparent, grey, darkgrey);
+
+}
+
+.politicas{
+    padding: 1rem;
+    display: flex;
+flex-direction:column;
+
+}
+
+.item__footer{
+padding-top: 2rem;
+text-decoration: none;
+
+font-size: 20px;
+color: rgb(58, 54, 54);
+white-space: nowrap;
+
+}
+
+#comuniq{
+    color: rgb(58, 53, 53);
+    text-decoration:solid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#area1, #area2 {
+ border-radius: 10px;
+ margin-left: 10px;
+ padding: 10px;
+ box-shadow: 5px 5px 10px 10px rgb(93, 95, 100);
+background: linear-gradient( to right, transparent, rgb(185, 169, 169), white ) ;
+}
+
+.enviar{
+    height: 50px;
+    border-radius: 4px;
+    color: rgb(19, 54, 170);
+    background-color: aliceblue;
+    margin: 5px;
+    margin: 10px;
+    
+}
+.enviar:hover{
+    color: beige;
+    background-color: blue;
+}
+
+.agrupar__area{
+display: flex;
+align-items: center;
+margin-left: auto;
+
+}
+
+#Leonel{
+color: black;
+text-align: center;
+font-size: 1rem;
+background-color: rgb(107, 115, 231);
+padding: 1.5rem;
+}

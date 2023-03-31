@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <title>AluraGeek - Add Product</title>
+</head>
+<body>
+
+    <script type="module" src="./controllers/enviarProductosControllers.js"></script>
+
+
+    <header class = "header">
+        
+    </header>
+
+<main>
+    
+    <section class="add-product">
+        
+                <form data-tipo>            
+                   
+                    
+                    <div class="input-container" >
+                        <input data-imagen  class="add-product-input input" name="nombre-producto" type="text"  placeholder="Inserte direccion de imagen" >
+                    </div >    
+                     
+                    <div class="input-container" >
+                        <input data-titulo  class="add-product-input input" name="nombre-producto" type="text" placeholder="Nombre del producto" required data-tipo="nombre" maxlength="20">
+
+                    </div >
+
+                    <div class="input-container" >
+                        <input  data-precio class="add-product-input input" type="text"  pattern = "^\d+(\.\d{1,2})?$" placeholder="Precio del producto" required data-tipo="numero">
+                        
+                    </div >
+
+
+                   
+                    
+                    <button type="submit" id="btnConsultar">Agregar Producto</button>
+                </form>
+            </div>
+        </div>
+    </section>
+ </main>
+
+
+
+
+
+
+ 
+
+
+ 
+</body>
+
+
+    </html>
